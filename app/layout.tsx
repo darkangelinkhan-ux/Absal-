@@ -6,12 +6,20 @@ export const metadata: Metadata = {
   description:
     "Portfolio of Absal Fatima — Full Stack Developer creating modern websites, web applications, business dashboards, and digital experiences.",
   applicationName: "Absal Fatima Portfolio",
+
+ icons: {
+  icon: "/favicon.svg",
+  shortcut: "/favicon.svg",
+  apple: "/favicon.svg",
+},
+
   openGraph: {
     title: "Absal Fatima | Full Stack Developer",
     description:
       "Explore web applications, responsive websites, dashboards, and digital solutions built by Absal Fatima.",
     type: "website",
   },
+
   robots: {
     index: true,
     follow: true,
