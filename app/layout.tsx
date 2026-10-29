@@ -1,4 +1,3 @@
-
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
@@ -16,6 +15,10 @@ export const metadata: Metadata = {
     "Explore Absal Fatima's developer portfolio featuring modern websites, web applications, responsive UI, business dashboards, and digital experiences.",
 
   applicationName: "Absal Fatima Portfolio",
+
+  verification: {
+    google: "-cjE6nqk2fGLtnURvVcdpgC3PMl22xJrP3DWGlgUrVs",
+  },
 
   alternates: {
     canonical: "/",
