@@ -163,12 +163,13 @@ export default function Home() {
         <nav aria-label="Main navigation" className="container-width nav-inner">
           <a href="#home" className="brand-mark" aria-label="Absal Fatima home">
             <span className="brand-monogram">A<span>.</span></span>
-            <span className="brand-name">Absal Fatima<small>FULL STACK DEVELOPER</small></span>
+            <span className="brand-name">Absal Fatima<small>FRONTEND DEVELOPER & DESIGNER</small></span>
           </a>
           <div className="nav-links">
             <a className="nav-link" href="#about">About</a>
             <a className="nav-link" href="#skills">Expertise</a>
             <a className="nav-link" href="#projects">Projects</a>
+            <a className="nav-link" href="#graphic-design">Graphic Design</a>
             <a className="nav-link" href="#services">Services</a>
             <a className="nav-link nav-extra-link" href="#approach">Approach</a>
           </div>
@@ -207,9 +208,8 @@ export default function Home() {
       </h1>
 
       <p className="hero-description">
-        Full Stack Developer creating polished websites,
-        useful web applications and business dashboards —
-        from the first idea to a dependable launch.
+        Frontend Web Developer and Graphic Designer creating polished websites,
+        thoughtful interfaces and clear visual experiences — from concept to launch.
       </p>
 
       <div className="hero-actions">
@@ -986,163 +986,64 @@ export default function Home() {
           Ideas into <span>Identity.</span>
         </h2>
         <p>
-          Branding, visual systems and creative design
-          crafted with purpose, consistency and detail.
+          A selection of my graphic design work. Open each project to view
+          the complete design in Canva.
         </p>
       </div>
     </header>
 
     <div className="graphic-design-grid">
-      
-{[
-  {
-    no: "01",
-    title: "Brand Identity",
-    category: "BRANDING",
-    image: "/images/t%20(20).png",
-    style: "graphic-card-brand",
-  },
-  {
-    no: "02",
-    title: "Logo Design",
-    category: "LOGO SYSTEM",
-    image: "/images/t%20(2).png",
-    style: "graphic-card-logo",
-  },
-  {
-    no: "03",
-    title: "Color & Art Direction",
-    category: "ART DIRECTION",
-    image: "/images/t%20(3).png",
-    style: "graphic-card-color",
-  },
-  {
-    no: "04",
-    title: "Typography",
-    category: "TYPE DESIGN",
-    image: "/images/t%20(19).png",
-    style: "graphic-card-type",
-  },
-  {
-    no: "05",
-    title: "Logo Construction",
-    category: "DESIGN SYSTEM",
-    image: "/images/t%20(5).png",
-    style: "graphic-card-grid",
-  },
-  {
-    no: "06",
-    title: "Brand Applications",
-    category: "VISUAL IDENTITY",
-    image: "/images/t%20(6).png",
-    style: "graphic-card-system",
-  },
-  {
-    no: "07",
-    title: "Social Media Design",
-    category: "SOCIAL CREATIVE",
-    image: "/images/t%20(7).png",
-    style: "graphic-card-social",
-  },
-  {
-    no: "08",
-    title: "Marketing Materials",
-    category: "CAMPAIGN DESIGN",
-    image: "/images/t%20(8).png",
-    style: "graphic-card-marketing",
-  },
-  {
-    no: "09",
-    title: "Packaging Design",
-    category: "PACKAGING",
-    image: "/images/t%20(9).png",
-    style: "graphic-card-packaging",
-  },
-  {
-    no: "10",
-    title: "Digital Mockups",
-    category: "PRESENTATION",
-    image: "/images/t%20(10).png",
-    style: "graphic-card-mockup",
-  },
-  {
-    no: "11",
-    title: "Merchandise Design",
-    category: "APPLICATIONS",
-    image: "/images/t%20(11).png",
-    style: "graphic-card-merchandise",
-  },
-  {
-    no: "12",
-    title: "Creative Concepts",
-    category: "EXPERIMENTAL",
-    image: "/images/t%20(12).png",
-    style: "graphic-card-concepts",
-  },
-  {
-    no: "13",
-    title: "Creative Design 13",
-    category: "GRAPHIC DESIGN",
-    image: "/images/t%20(13).png",
-    style: "graphic-card-brand",
-  },
-  {
-    no: "14",
-    title: "Creative Design 14",
-    category: "GRAPHIC DESIGN",
-    image: "/images/t%20(14).png",
-    style: "graphic-card-logo",
-  },
-  {
-    no: "15",
-    title: "Creative Design 15",
-    category: "GRAPHIC DESIGN",
-    image: "/images/t%20(15).png",
-    style: "graphic-card-color",
-  },
-  {
-    no: "16",
-    title: "Creative Design 16",
-    category: "GRAPHIC DESIGN",
-    image: "/images/t%20(16).png",
-    style: "graphic-card-type",
-  },
-  {
-    no: "17",
-    title: "Creative Design 17",
-    category: "GRAPHIC DESIGN",
-    image: "/images/t%20(17).png",
-    style: "graphic-card-system",
-  },
-  {
-    no: "18",
-    title: "Creative Design 18",
-    category: "GRAPHIC DESIGN",
-    image: "/images/t%20(18).png",
-    style: "graphic-card-concepts",
-  },
-].map((item) => (
-  <article className="graphic-design-card" key={item.no}>
-    <div className="graphic-card-top">
-      <span>{item.no} / {item.category}</span>
-      <span className="graphic-card-arrow">↗</span>
-    </div>
+      {[
+        {
+          no: "01",
+          title: "Creative Design — Project 01",
+          category: "GRAPHIC DESIGN",
+          href: "https://canva.link/2srxsxgxyxcna5e",
+          preview: "Brand visuals · Layout · Typography",
+          style: "graphic-card-brand",
+        },
+        {
+          no: "02",
+          title: "Creative Design — Project 02",
+          category: "GRAPHIC DESIGN",
+          href: "https://canva.link/2p0lhn06bl8btfe",
+          preview: "Visual communication · Composition",
+          style: "graphic-card-color",
+        },
+        {
+          no: "03",
+          title: "Creative Design — Project 03",
+          category: "GRAPHIC DESIGN",
+          href: "https://canva.link/cbibuinuao7hv3p",
+          preview: "Creative direction · Digital design",
+          style: "graphic-card-type",
+        },
+      ].map((item) => (
+        <article className="graphic-design-card" key={item.no}>
+          <div className="graphic-card-top">
+            <span>{item.no} / {item.category}</span>
+            <span className="graphic-card-arrow"><ExternalLink size={15} /></span>
+          </div>
 
-    <div className={`graphic-card-art ${item.style}`}>
-      <img
-        src={item.image}
-        alt={item.title}
-        loading="lazy"
-      />
-    </div>
+          <a
+            className={`graphic-card-art ${item.style} graphic-card-link`}
+            href={item.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`Open ${item.title} in Canva`}
+          >
+            <span className="graphic-preview-index">{item.no}</span>
+            <span className="graphic-preview-title">SELECTED<br />CREATIVE WORK</span>
+            <span className="graphic-preview-subtitle">{item.preview}</span>
+            <span className="graphic-preview-open">OPEN IN CANVA ↗</span>
+          </a>
 
-    <div className="graphic-card-caption">
-      <h3>{item.title}</h3>
-      <span>CREATIVE WORK — {item.no}</span>
-    </div>
-  </article>
-))}
-
+          <div className="graphic-card-caption">
+            <h3>{item.title}</h3>
+            <a href={item.href} target="_blank" rel="noopener noreferrer">View design ↗</a>
+          </div>
+        </article>
+      ))}
     </div>
 
     <footer className="graphic-design-footer">
@@ -1396,7 +1297,7 @@ export default function Home() {
               
 <div className="contact-actions">
   <a
-    href="mailto:darkangelinkhan@gmail.com?subject=Portfolio%20Inquiry"
+    href="mailto:absalfatima11@gmail.com?subject=Portfolio%20Inquiry"
     className="button-primary"
   >
     <Mail size={17} />
@@ -1405,7 +1306,7 @@ export default function Home() {
   </a>
 
   <a
-    href="https://www.linkedin.com/in/anaya-fatima-6ab752361"
+    href="https://www.linkedin.com/"
     target="_blank"
     rel="noopener noreferrer"
     className="button-secondary"
@@ -1425,7 +1326,7 @@ export default function Home() {
   </a>
 </div>
 
-              <p className="contact-note">Before publishing, replace the sample email and generic social links with your real profiles.</p>
+              <p className="contact-note">For project enquiries and professional opportunities, feel free to get in touch by email.</p>
             </div>
             <div className="contact-side"><Globe2 size={23} /><span>AVAILABLE FOR</span><b>Remote roles</b><b>Freelance projects</b><div className="contact-side-line" /><small>Let&apos;s create work that matters.</small></div>
           </div>
